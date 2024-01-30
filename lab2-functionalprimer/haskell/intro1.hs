@@ -8,7 +8,8 @@ r2 = b^2 + 1/b where b = 2
 diff a b = abs (a - b)
 
 r3 = diff (diff a a) a  where a = 1
-r4 = diff (diff a b) b  where a = 1; b = 10
+r4 = diff (diff a b) b  where a = 10; b = 2
+r13 = diff (diff a b) b  where a = 10; b = 1
 
 -- lists by enumeration
 r5 = [1,3,4,1]
